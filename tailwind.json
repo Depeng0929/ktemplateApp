@@ -4,6 +4,11 @@
 			"marginTop": 64
 		}
 	},
+	"mt-4": {
+		"style": {
+			"marginTop": 16
+		}
+	},
 	"flex": {
 		"style": {
 			"display": "flex"

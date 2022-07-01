@@ -12,7 +12,15 @@ function Home({navigation}) {
       <Text>Home</Text>
       <Text style={tailwind('text-blue-600 mt-16')}>Hello world</Text>
       <AirbnbRating />
-      <Button title="Go to Home" onPress={() => navigation.navigate('Mine')} />
+      <Button
+        title="Go to Space"
+        onPress={() => navigation.navigate('Space')}
+      />
+      <Button
+        style={tailwind('mt-4')}
+        title="Go to Mine"
+        onPress={() => navigation.navigate('Mine')}
+      />
     </View>
   );
 }
